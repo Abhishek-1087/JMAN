@@ -1,0 +1,93 @@
+/* .skills-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .skills-form-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skills-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+  }
+  
+  .skills-form .form-item {
+    margin-bottom: 20px;
+  }
+  
+  .skills-form .form-item label {
+    color: #333333;
+  }
+  
+  .skills-form .form-item select,
+  .skills-form .form-item input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333333;
+  }
+  
+  .skills-form .form-item select:focus,
+  .skills-form .form-item input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .skills-form .form-item button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .skills-form .form-item button:hover {
+    background-color: #0056b3;
+  }
+   */
+
+
+   .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    margin-right: auto;
+  }
+  
+  .form-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-box {
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .input-field {
+    margin-top: 10px;
+  }
+  
+  .select-field {
+    margin-top: 20px;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+  }
+  

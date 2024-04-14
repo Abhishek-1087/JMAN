@@ -1,0 +1,27 @@
+.searchBar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchBar input {
+    flex-grow: 1;
+  }
+  
+  .progress {
+    height: 20px;
+  }
+  
+  .viewDataContainer {
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .searchBar {
+      flex-direction: column;
+    }
+    
+    .searchBar input {
+      margin-bottom: 10px;
+    }
+  }
+  
